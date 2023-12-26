@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rabina Roka Official Website</title>
+    <title>Rabina Roka - Web developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Font Awesome icons (free version)-->
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <div class="container">
+    <div class = "sidebar sidebarGo" style="transition: transform 1s ease in ;">
+        <nav>
+            <ul>
+                <li> <a href="/">Home</li>
+                <li><a  href="/intro.html">My introduction</a></li>
+                <li><a href="/linkedln.html"> Linkedln</a></li>
+                <li><a href="/projects.html">Projects</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/contact.html">Contact Me</a></li>
+                
+                <a href="https://www.facebook.com/profile.php?id=100068678105777" class="facebook"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.linkedin.com/in/rabina-roka-b39aa1248/" class="linkedin"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/RabinaRoka" class="github"><i class="fab fa-github"></i></a>              
+            </ul>
+
+            <div class="copyright py-4 text-center text-black">
+                <div class="copy"><small>Copyright &copy; 2023 <br/>
+                    by Rabina Roka</small></div>
+            </div>
+        </nav>
+    </div>   
+    <div class = "main" >
+      <div class ='hamburger'>
+        <img class="ham" src="hamburger.png" alt="" width = "23">
+        <img class="cross" src="cross.png" alt="" width ="23" >
+
+    </div>
+        <div class = "contactform">
+            <form>
+              <h1>Contact me for general enquiries</h1>
+              <div class="mb-3">
+                <label for="clientname" class="form-label">Name</label>
+                <input type="name" class="form-control" id="clientphone">
+              </div>
+                <div class="mb-3">
+                  <label for="clientemail" class="form-label">Email address</label>
+                  <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                  <div id="emailHelp" class="form-text">We'll never share your email and phone number with anyone else.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="clientphone" class="form-label">Phone number</label>
+                  <input type="phoneno" class="form-control" id="clientphone">
+                </div>
+
+                <div class ="mb-3">
+                  <label for ="clientenquiry" class = "form-label">Enquiry</label>
+                  <input type ="description" class="form-control" id = "clientenquiry">
+                </div>
+                <div class="mb-3" id="form-check">
+                  <input type="checkbox" class="form-check-input" id="isclient">
+                  <label class="form-check-label" for="isclient">I want you to work on a project with me</label>
+                </div>
+                <button type="submit" class="btn btn-sm">Submit</button>
+              </form>
+        
+        </div>
+
+    </div>
+</div>  
+<script src="script.js"></script>     
+</body>
+</html>
